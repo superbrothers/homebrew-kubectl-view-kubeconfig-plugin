@@ -1,9 +1,9 @@
 class KubectlViewKubeconfigPlugin < Formula
   desc "kubectl plugin that show a kubeconfig to access the apiserver with a specified serviceaccount."
   homepage "https://github.com/superbrothers/kubectl-view-kubeconfig-plugin"
-  version "v1.0.0"
+  version "v1.0.1"
   url "https://github.com/superbrothers/kubectl-view-kubeconfig-plugin/releases/download/#{version}/view-kubeconfig-darwin-amd64.zip"
-  sha256 "a776e4460bfb92edd6bc340f9fd3358f93990ba7a83636ad28e38cc49ab55ad5"
+  sha256 "f0a3fafbf27303b0461b1a6a5b03ef290eba79089d3561c7c23f8c32abfbeb33"
 
   def install
     prefix.install Dir["*"]
