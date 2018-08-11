@@ -10,6 +10,9 @@ class KubectlViewKubeconfigPlugin < Formula
   end
 
   def caveats; <<~EOS
+    This plugin was renamed to "view-serviceaccount-kubeconfig", so please use "kubectl-view-serviceaccount-kubeconfig-plugin" instead.
+    Note that this formula will be removed in the near future.
+
     Run the following commands in terminal:
       mkdir -p ~/.kube/plugins && \\
       rm -rf ~/.kube/plugins/kubectl-view-kubeconfig-plugin && \\
